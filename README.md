@@ -1,44 +1,24 @@
-# HTML Basics Practice
+# Fullstack Learning Journey
 
-This project contains my practice while learning the fundamentals of HTML as part of my web development journey.
+This repository documents my journey learning full-stack web development.
 
-## Topics Covered
+## Current Progress
 
-During this practice, I learned and implemented the following HTML concepts:
+* ✅ HTML Basics
 
-### Basic HTML
-- Basic HTML structure
-- Common HTML tags
-- Text formatting
+## Topics Covered in HTML
 
-### Lists
-- Ordered Lists
-- Unordered Lists
-- Nested Lists
+* Basic HTML tags
+* Lists (ordered, unordered, nested)
+* Images and anchor tags
+* Tables
+* Forms and form elements
+* HTML5 form attributes
+* Div layouts
 
-### Links and Media
-- Anchor tag (links)
-- Image tag
+## Next Step
 
-### Text Formatting
-- Superscript
-- Subscript
-- Center tag
-
-### HTML Elements
-- Div tag
-- Meter element
-
-### Tables
-- Creating tables
-- Table rows and columns
-
-### Forms
-- Form structure
-- Input elements
-- HTML5 form elements
-- HTML5 calendar element
-- Form attributes
+* CSS Basics
 
 
 ## Purpose of This Project
