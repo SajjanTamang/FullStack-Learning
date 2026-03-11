@@ -1,6 +1,5 @@
 # Fullstack Learning Journey
 
-This repository documents my journey learning full-stack web development.
 
 ## Current Progress
 
