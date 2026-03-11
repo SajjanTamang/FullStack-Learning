@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Table</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+        }
+        #parent-row1{
+            width: 500px;
+            height: 250px;
+        }
+        #parent-row2{
+            width: 500px;
+            height: 250px;
+        }
+        .col1{
+            width: 250px;
+            height: 250px;
+            background-color: lightskyblue;
+            float: left;
+        }
+        .col2{
+            width: 250px;
+            height: 250px;
+            background-color: palevioletred;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main"><!--Main Div-->
+        <div id="parent-row1"><!--Parent Row 1-->
+            <div class="col1">Home</div><!--col1-->
+            <div class="col2">About</div><!--col2-->
+        </div>
+<hr>
+        <div id="parent-row2"><!--Parent Row 2-->
+            <div class="col1">Gallery</div><!--col1-->
+            <div class="col2">Contact</div><!--col2-->
+        </div>
+
+    </div>
+    
+</body>
+</html>
