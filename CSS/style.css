@@ -1,0 +1,19 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.col1{
+    width: 250px;
+    height: 250px;
+    background-color: lightskyblue;
+    float: left;
+}
+
+.col2{
+    width: 250px;
+    height: 250px;
+    background-color: palevioletred;
+    float: left;
+}
