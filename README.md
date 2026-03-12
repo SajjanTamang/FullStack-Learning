@@ -14,28 +14,60 @@ I will keep updating this repository as I continue learning and building project
 
 ---
 
-## HTML Topics Covered
+# HTML Topics Covered
 
-* Basic HTML structure and common tags
-* Lists (ordered, unordered, nested)
-* Images and anchor tags
-* Tables
-* Forms and form elements
+During my HTML learning practice I worked with the following concepts:
+
+### Basic HTML
+
+* Basic HTML structure
+* Common HTML tags
+* Text formatting
+
+### Lists
+
+* Ordered Lists
+* Unordered Lists
+* Nested Lists
+
+### Links and Media
+
+* Anchor tag (links)
+* Image tag
+* Video tag
+
+### HTML Elements
+
+* Div element
+* Subscript and Superscript
+* Iframe
+* Details and Summary
+* Datalist element
+
+### Tables
+
+* Creating tables
+* Table rows and columns
+
+### Forms
+
+* Form structure
+* Input elements
+* HTML5 form elements
 * HTML5 form attributes
-* Div layouts
 
 ---
 
-## CSS Topics Practiced
+# CSS Topics Practiced
 
 * Basic CSS styling
-* Linking CSS to HTML
+* Linking CSS with HTML
 * Styling text and layout
-* Basic homepage layout practice
+* Creating a simple homepage layout
 
 ---
 
-## Practice Projects
+# Practice Projects
 
 ### First Webpage
 
@@ -43,24 +75,45 @@ A simple homepage created using **HTML and CSS** to practice page layout and sty
 
 ---
 
-
-## Project Structure
+# Project Structure
 
 ```
 FULLSTACK
 │
-├── Html-Basic
+├── HTML-Basic
+│   ├── anchor.html
+│   ├── cal.html
+│   ├── datalist.html
+│   ├── demo.html
+│   ├── details.html
+│   ├── div.html
+│   ├── form.html
+│   ├── html5.html
+│   ├── iframe.html
+│   ├── image.html
+│   ├── index.html
+│   ├── list.html
+│   ├── nested.html
+│   ├── sajjan.html
+│   ├── sub.html
+│   ├── table.html
+│   └── video.html
 │
 ├── CSS
+│   ├── index.css
+│   └── style.css
 │
-├── First-Page
-│  
+├── First Page
+│   ├── file.html
+│   ├── index.html
+│   ├── style.css
+│   └── star.jpg
 │
 └── README.md
 ```
 
 ---
 
-## Author
+# Author
 
 **Sajjan Bomjan Tamang**
