@@ -13,6 +13,11 @@
     color: darkred;
 }
 
+.row1:hover{
+    background-color: aqua;
+    color: yellow;
+}
+
 .row2{
     width: 1000px;
     height: 40px;
