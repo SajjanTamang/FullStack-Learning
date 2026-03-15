@@ -6,6 +6,27 @@
     <title>Opacity</title>
 
     <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            position: relative;
+        }
+        .add{
+            width: 100%;
+            font-size: 30px;
+            background-color: gold;
+            color: white;
+            position: absolute;
+            left: 0px;
+            bottom: -30px;
+            opacity: 0;
+            transition: 1s;
+        }
+        .box:hover .add{
+            bottom: 0px;
+            opacity: 1;
+        }
         .main{
             width: 500px;
             height: 500px;
@@ -30,6 +51,10 @@
     </style>
 </head>
 <body>
+    <div class="box">
+        <img src="1.jpg" width="500px" height="500px"/>
+        <input type="button" name="" value="Add To Cart" class="add"/>
+    </div>
     <div class="main"></div>
     <div class="bgchange"></div>
     
