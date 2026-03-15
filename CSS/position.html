@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .header{
+            width: 100px;
+            height: 100px;
+            border: 2px solid gold;
+            text-align: center;
+            font-size: 22px;
+            position: sticky;
+            top: 5px;
+        }
+        .col-1{
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            float: left;
+            font-size: 22px;
+            text-align: center;
+        }
+        .col-2{
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            float: left;
+            font-size: 22px;
+            text-align: center;
+            /*
+            position:(absolute,relative,fixed,sticky)
+            */
+            position: fixed;
+            top: 100px;
+            left: 100px;
+        }
+        .col-3{
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            float: left;
+            font-size: 22px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Header</div>
+    <div>
+        <div class="col-1">
+            <h2>1</h2>
+        </div>
+        <div class="col-2">
+            <h2>2</h2>
+        </div>
+        <div class="col-3">
+            <h2>3</h2>
+        </div>
+    </div>
+
+    <div style="clear: both;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nesciunt sint soluta saepe numquam cumque voluptas accusamus, at eveniet? Natus eligendi ea, et cupiditate accusamus nemo officiis libero iusto ratione.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores provident quod modi alias, libero facere maxime officiis minus inventore tempore iusto doloribus omnis. Placeat, molestias dignissimos velit id aspernatur quo!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo velit temporibus quasi numquam laudantium deserunt illum eveniet a aliquid, fugit, neque veniam. Ex nulla modi harum, exercitationem odio veniam!</p>
+    </div>
+    
+</body>
+</html>
