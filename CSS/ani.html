@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ani</title>
+    <style>
+        .main{
+            width: 700px;
+            height: 150px;
+            border: 2px solid black;
+            margin: auto;
+            margin-top: 10%;
+            position: relative;
+        }
+        .box{
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            animation: box 5s 2;
+            top: 0px;
+            left: 0px;
+            margin-top: 25px ;
+            position: absolute;
+            animation-timing-function: ease;
+        }
+        @keyframes box{
+            from{
+                left: 0px;
+            }
+            to{
+                left: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="box">Linear</div>
+    </div>
+    
+</body>
+</html>
