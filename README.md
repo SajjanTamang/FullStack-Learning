@@ -7,10 +7,11 @@ I will keep updating this repository as I continue learning and building project
 
 ---
 
-## Current Progress
+# Current Progress
 
 * ✅ HTML Basics
-* 🚧 CSS Basics (in progress)
+* ✅ CSS Basics
+* 🚧 JavaScript (in progress)
 
 ---
 
@@ -58,12 +59,15 @@ During my HTML learning practice I worked with the following concepts:
 
 ---
 
-# CSS Topics Practiced
+# CSS Topics Covered
 
-* Basic CSS styling
+* CSS syntax and selectors
 * Linking CSS with HTML
-* Styling text and layout
-* Creating a simple homepage layout
+* Colors and backgrounds
+* Text styling
+* Box model
+* Borders and spacing
+* Basic layout styling
 
 ---
 
@@ -75,39 +79,32 @@ A simple homepage created using **HTML and CSS** to practice page layout and sty
 
 ---
 
+# Currently Learning
+
+### JavaScript
+
+Starting JavaScript to add **logic and interactivity** to web pages.
+
+Topics I will learn next:
+
+* Variables
+* Functions
+* DOM manipulation
+* Events
+* Loops and conditions
+
+---
+
 # Project Structure
 
 ```
 FULLSTACK
 │
 ├── HTML-Basic
-│   ├── anchor.html
-│   ├── cal.html
-│   ├── datalist.html
-│   ├── demo.html
-│   ├── details.html
-│   ├── div.html
-│   ├── form.html
-│   ├── html5.html
-│   ├── iframe.html
-│   ├── image.html
-│   ├── index.html
-│   ├── list.html
-│   ├── nested.html
-│   ├── sajjan.html
-│   ├── sub.html
-│   ├── table.html
-│   └── video.html
 │
 ├── CSS
-│   ├── index.css
-│   └── style.css
 │
 ├── First Page
-│   ├── file.html
-│   ├── index.html
-│   ├── style.css
-│   └── star.jpg
 │
 └── README.md
 ```
