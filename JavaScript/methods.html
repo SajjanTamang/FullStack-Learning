@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Methods (Array)</title>
+</head>
+<body>
+
+    <h1 id="res"></h1>
+    <button onclick="pop()">POP</button>
+    <button onclick="push()">Push</button>
+    <button onclick="slice()">Slice</button>
+    <button onclick="reverse()">Reverse</button>
+    <button onclick="shift()">Shift</button>
+    <hr>
+    
+</body>
+
+    <script>
+        //To Check Array
+        var arr = ["mango", "apple", "pineapple", "banana"];
+        var arre;
+        var flag = Array.isArray(arre);
+        document.write("<h1>"+flag+"</h1>")
+        
+        document.write("<hr>");
+
+        //To Check Value Of Array
+        var fruits = ["mango", "apple", "pineapple", "banana"];
+        var flag = fruits.valueOf();
+        document.write("<h1>"+flag+"</h1>")
+        
+        document.write("<hr>");
+
+        //Join 
+        var fruits = ["mango", "apple", "pineapple", "banana"];
+        var flag = fruits.join(" | ");
+        document.write("<h1>"+flag+"</h1>")
+        
+        document.write("<hr>");
+
+        //Concat 
+        var fruits = ["mango", "apple", "pineapple", "banana"];
+        var vegitables = ["potato", "lemon", "ginger"];
+        var shop = fruits.concat(vegitables);
+        document.write("<h1>"+shop+"</h1>")
+        
+        document.write("<hr>");
+
+        //Index
+        var fruits = ["mango", "apple", "pineapple", "banana"];
+        var vegitables = ["potato", "lemon", "ginger"];
+        var shop = vegitables.concat(fruits);
+        var index = shop.indexOf("apple");
+        document.write("<h1>"+index+"</h1>")
+        
+        document.write("<hr>");
+        
+        //Pop function
+         var fruits = ["mango", "apple", "pineapple", "banana"];
+         var demo = fruits;
+         document.getElementById("res").innerText = demo;
+         function pop(){
+            demo.pop();
+            document.getElementById('res').innerText = demo;
+         }
+         function push(){
+            var x = prompt("Please enter a fruit");
+            demo.push("x");
+            document.getElementById('res').innerText = demo;
+         }
+         function slice(){
+            var x = demo.slice(2);
+            document.getElementById('res').innerText = x;
+         }
+         function reverse(){
+            demo.reverse();
+            document.getElementById('res').innerText = demo;
+         }
+         function shift(){
+            var x = demo.shift();
+            document.getElementById('res').innerText = x;
+         }
+
+    </script>
+
+</html>
