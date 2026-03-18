@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical and ternary Operator</title>
+</head>
+<body>
+    
+    <h1 id="and" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="or" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="ter" style="margin: 50px auto; width: 300px;"></h1>
+
+</body>
+
+    <script type="text/javascript">
+
+        //logical AND
+        var a = true;
+        var b = true;
+        var c = a&&b;
+        document.getElementById('and').innerHTML = c;
+
+        //logical OR
+        var d = false;
+        var e = false;
+        var f = d||e;
+        document.getElementById('or').innerHTML = f;
+
+        //Ternary
+        var g = 5;
+        var h = 8;
+        var i;
+        //condition ? "true" : "false"
+        i =  g<h ? "yes" : "no"
+        document.getElementById('ter').innerHTML = i;
+
+    </script>
+
+</html>
