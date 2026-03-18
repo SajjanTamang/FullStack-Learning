@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Operator</title>
+</head>
+<body>
+    
+    <h1 id="eq" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="nq" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="gre" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="les" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="goe" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="loe" style="margin: 50px auto; width: 300px;"></h1>
+
+</body>
+
+    <script type="text/javascript">
+
+        //equal to 
+        var a = 5;
+        var b = 5;
+        c = a==b;
+        document.getElementById('eq').innerHTML = c;
+
+        //not equal 
+        var d = 5;
+        var e = 5;
+        f = d!=e;
+        document.getElementById('nq').innerHTML = f;
+
+        //greater than
+        var g = 10;
+        var h = 5;
+        i = g>h;
+        document.getElementById('gre').innerHTML = i;
+
+        //less than
+        var j = 5;
+        var k = 9;
+        l = j<k;
+        document.getElementById('les').innerHTML = l;
+
+        //greater tahn or equal to 
+        var m = 15;
+        var n = 115;
+        o = m>=n;
+        document.getElementById('goe').innerHTML = o;
+
+        //less than or equal to 
+        var p = 5;
+        var q = 100;
+        r = p<=q;
+        document.getElementById('loe').innerHTML = r;
+
+    </script>
+
+</html>
