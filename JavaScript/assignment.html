@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="asg" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="add" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="sub" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="mult" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="div" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="modu" style="margin: 50px auto; width: 300px;"></h1>
+
+</body>
+
+    <script type="text/javascript">
+
+        //Simple Assignment
+        var a = 5;
+        var b = a ;
+        document.getElementById('asg').innerHTML = b;
+
+        //ADD Assignment
+        var c = 5 ;
+        var d = 6 ;
+        d += c;
+        document.getElementById('add').innerHTML = d;
+        
+        //Subtract Assignment
+        var e = 5 ;
+        var f = 6 ;
+        f -= e;
+        document.getElementById('sub').innerHTML = f;
+
+        //Multiply Assignment
+        var g = 5 ;
+        var h = 6 ;
+        h *= g;
+        document.getElementById('mult').innerHTML = h;
+
+        //divide Assignment
+        var i = 5 ;
+        var j = 6 ;
+        j /= i;
+        document.getElementById('div').innerHTML = j;
+
+        //modulus Assignment
+        var k = 5 ;
+        var l = 6 ;
+        k %= l;
+        document.getElementById('modu').innerHTML = k;
+
+    </script>
+
+</html>
