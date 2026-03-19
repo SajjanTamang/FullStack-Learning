@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+
+    <input type="" name="u_name"/>
+    <button onclick="getName()">Submit</button>
+    <button onclick="test()">click</button>
+    <button onclick="test1()">Test</button>
+    <h1></h1>
+
+</body>
+
+    <script type="text/javascript">
+        function getName(){
+            var uName = document.getElementsByName('u_name')[0].value;
+            document.getElementsByName('u_name')[0].value = "";
+            document.getElementsByTagName("h1")[0].innerHTML = uName; 
+        }
+        document.write("<hr>");
+
+        //serInterval
+        function test(){
+            setInterval( function() {
+                alert("hello");
+            },
+            2500
+         )
+        }
+
+        //setTimeOut
+        function test1(){
+            setTimeout(function(){
+                alert("Hello");
+            },
+            2000
+        )
+        }
+
+
+    </script>
+
+</html>
