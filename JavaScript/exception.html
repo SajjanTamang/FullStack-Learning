@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exception Statement</title>
+</head>
+<body>
+    
+    <button onclick="test()">click</button><hr><br/><br/>
+
+    Please enter a number between 5 and 10
+    <input type="" id="num"/><br/>
+    <button onclick="test1()">submit</button><br/><br/>
+    <h1 id="ult"></h1>
+
+    <h1 id="res"></h1>
+    
+
+</body>
+
+    <script>
+
+
+            //try catch
+            function test(){
+            try{
+                var number = "sajjan";
+                var x = number.toUpperCase();
+                alert(x);
+            }
+            catch(err){
+                document.getElementById('res').innerText = err;
+            }
+        }
+
+        //try throw catch
+        var num = document.getElementById('num');
+        function test1(){
+            var data = num.value;
+            try{
+                if(isNaN(data)){
+                    throw "This is not a number";
+                }else{
+                    if(data<5 || data>10 ){
+                        throw "Number is out of range";
+                    }else{
+                        throw "";
+                    }
+                }
+            }catch(errMessage){
+                document.getElementById('ult').innerText = errMessage;
+            }finally{
+                num.value = "";
+            }
+            
+        }
+
+    </script>
+
+</html>
